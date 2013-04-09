@@ -12,7 +12,7 @@
 
 .navbar .brand {
   float: right;
-  background-image: url("../images/suse-header-logo.png") no-repeat;
+  background-image: url('../images/suse-header-logo.png') no-repeat;
   width: 60px;
   height: 30px;
   padding-top: 5px;
