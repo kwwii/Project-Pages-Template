@@ -4,7 +4,6 @@
 
 .navbar-fixed-top {
   border-bottom: 4px solid #ccc;
-  margin-bottom: 40px;
 }
 
 .navbar .nav > li > a:focus, .navbar .nav > li > a:hover {
