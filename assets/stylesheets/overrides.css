@@ -15,7 +15,7 @@
   padding-top: 5px;
 }
 
-.brand a {
+.brand > a {
   display: block;  
   background-image: url('../images/suse-header-logo.png') no-repeat;
   width: 60px;
