@@ -1,13 +1,12 @@
 @import url(bootstrap.min.css);
 
-body { padding-top: 40px; }
-
 a:hover {
   cursor: pointer;
 }
 .navbar-fixed-top {
   border-bottom: 1px solid #666;
-  margin-bottom: 0
+  margin-bottom: 0;
+  position: static
 }
 
 .navbar .nav > li > a:focus, .navbar .nav > li > a:hover {
