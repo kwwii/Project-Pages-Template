@@ -98,6 +98,12 @@ text-align: left;
   text-decoration: none;
 }
 
+.screenshot-slider {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  position: relative;
+}
+
 .footer {
   margin-top: 20px;
   text-align: center;
