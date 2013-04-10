@@ -1,6 +1,6 @@
-
-
 @import url(bootstrap.min.css);
+
+body { padding-top: 40px; }
 
 .navbar-fixed-top {
   border-bottom: 1px solid #666;
@@ -13,7 +13,7 @@
 
 .navbar .brand {
   float: right;
-  padding: 5px 0 0 0;
+  padding: 7px 0 0 0;
 }
 
 .navbar .nav>.active>a, .navbar .nav>.active>a:hover, .navbar .nav>.active>a:focus {
@@ -28,32 +28,41 @@
 }
 
 .masthead {
-  color: #fff;
+  color: #888;
   margin-bottom: 0;
-  padding: 70px 0 80px;
+  padding: 60px 0 50px;
 }
 .masthead h1 {
-  font-size: 96px;
+  font-size: 69px;
   letter-spacing: -2px;
   line-height: 1;
   color: #7AC142;
 }
 .masthead p {
-  font-size: 32px;
+  font-size: 23px;
   font-weight: 200;
   line-height: 1.25;
-  color: #888888;
+  color: #aaa;
+}
+.masthead ul li a {
+  color: #bbb
+}
+.masthead ul li a:hover {
+  color: #f5f5f5;
 }
 .jumbotron {
-  background-image:-moz-linear-gradient(top, #444444, #33373a);
-  background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#444444), to(#33373a));
-  background-image:-webkit-linear-gradient(top, #444444, #33373a);
-  background-image:-o-linear-gradient(top, #444444, #33373a);
-  background-image:linear-gradient(to bottom, #444444, #33373a);
-  background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff666666', endColorstr='#ff33373a', GradientType=0);
+  background: rgb(68,71,73); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgba(68,71,73,1) 0%, rgba(51,55,58,1) 33%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(68,71,73,1)), color-stop(33%,rgba(51,55,58,1))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  rgba(68,71,73,1) 0%,rgba(51,55,58,1) 33%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  rgba(68,71,73,1) 0%,rgba(51,55,58,1) 33%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  rgba(68,71,73,1) 0%,rgba(51,55,58,1) 33%); /* IE10+ */
+  background: linear-gradient(to bottom,  rgba(68,71,73,1) 0%,rgba(51,55,58,1) 33%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#444749', endColorstr='#33373a',GradientType=0 ); /* IE6-9 */
   position: relative;
+  text-align: center;
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4), 0 0 30px rgba(0, 0, 0, 0.075);
-  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+  height: 100%;
 }
 .jumbotron p {
   margin-bottom: 30px;
@@ -62,3 +71,9 @@
   font-weight: bold;
 }
 
+.jumbotron .btn-large {
+font-size: 18px;
+padding: 13px 23px 13px 22px;
+margin-right: 10px;
+text-align: left;
+}
