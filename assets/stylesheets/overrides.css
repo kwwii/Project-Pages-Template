@@ -70,7 +70,6 @@ a:hover {
   position: relative;
   text-align: center;
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4), 0 0 30px rgba(0, 0, 0, 0.075);
-
 }
 .jumbotron p {
   margin-bottom: 30px;
@@ -103,21 +102,20 @@ text-align: left;
 }
 
 .screenshot-slider {
-  margin-top: 15px;
-  margin-bottom: 15px;
   position: relative;
   background-color: #FFFFFF;
   border: 1px solid #888;
   border-radius: 4px 4px 4px 4px;
   margin: 15px 0;
+  width: 600px;
 }
 
 .carousel {
   margin-bottom: 0;
 }
 
-.screenshots, .release-notes {
-  margin-top: 30px;
+.module {
+  margin-top: 50px;
 }
 
 .footer {
