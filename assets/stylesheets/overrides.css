@@ -2,6 +2,9 @@
 
 body { padding-top: 40px; }
 
+a:hover {
+  cursor: pointer;
+}
 .navbar-fixed-top {
   border-bottom: 1px solid #666;
   margin-bottom: 0
@@ -62,7 +65,7 @@ body { padding-top: 40px; }
   position: relative;
   text-align: center;
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4), 0 0 30px rgba(0, 0, 0, 0.075);
-  height: 100%;
+
 }
 .jumbotron p {
   margin-bottom: 30px;
@@ -76,4 +79,20 @@ font-size: 18px;
 padding: 13px 23px 13px 22px;
 margin-right: 10px;
 text-align: left;
+}
+
+.social-media {
+  border-top: 1px solid #222;
+  border-bottom: 1px solid #fff;
+  padding-top: 10px;
+  text-align: center;
+  background-color: #444749;
+}
+.social-media a {
+  color: #bbb;
+  text-decoration: none;
+}
+.social-media a:hover {
+  color: #fff;
+  text-decoration: none;
 }
