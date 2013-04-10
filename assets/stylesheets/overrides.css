@@ -3,6 +3,11 @@
 a:hover {
   cursor: pointer;
 }
+
+.page-header {
+  border-color: #888;
+}
+
 .navbar-fixed-top {
   border-bottom: 1px solid #666;
   margin-bottom: 0;
