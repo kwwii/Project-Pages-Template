@@ -133,8 +133,8 @@ text-align: left;
     border-image: none;
     border-style: solid;
     border-width: 1px;
-    border-bottom: 0;
-    background-color: 0;
+    border-bottom: none;
+    background: none;
 }
 
 .footer {
