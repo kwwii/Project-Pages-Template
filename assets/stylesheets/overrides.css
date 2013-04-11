@@ -125,38 +125,6 @@ text-align: left;
   margin-top: 30px;
 }
 
-.nav-tabs {
-  border-bottom: 1px solid #444749;
-  margin-top: 20px;
-}
-
-.nav-tabs > .active > a, .nav-tabs > .active > a:hover, .nav-tabs > .active > a:focus {
-  border-color: #444749;
-  border-style: solid;
-  border-width: 1px;
-  color: #444749;
-  background: #ccc;
-  border-bottom: 1px solid #ccc !important;
-}
-
-.nav-tabs > li > a {
-  font-size: 16px;
-
-}
-
-.nav-tabs > li > a:hover, .nav-tabs > li > a:focus {
-  border-color: #bbb;
-  border-style: solid;
-  border-width: 1px;
-  background: #bbb;
-
-}
-
-.nav> li > a:hover, .nav > li > a:focus {
-  background: #bbb;
-  border-bottom: 1px solid #ccc !important;
-}
-
 .footer {
   margin-top: 20px;
   text-align: center;
