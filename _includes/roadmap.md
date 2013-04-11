@@ -1,3 +1,7 @@
+---
+layout: pages
+---
+
 # Roadmap to v0.2
 
 * Improve main page by separating header and footer into separate snippets
