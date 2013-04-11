@@ -135,8 +135,8 @@ text-align: left;
   border-style: solid;
   border-width: 1px;
   color: #f5f5f5;
-  background: #444749;
-  border-bottom: none !important;
+  background: #ccc;
+  border-bottom: 1px solid #ccc !important;
 }
 
 .nav-tabs > li > a {
@@ -148,7 +148,7 @@ text-align: left;
   border-style: solid;
   border-width: 1px;
   background: #bbb;
-  border-bottom: none !important;
+  border-bottom: 1px solid #ccc !important;
 }
 
 .nav> li >a:hover, .nav > li > a:focus {
