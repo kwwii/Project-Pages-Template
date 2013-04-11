@@ -132,7 +132,7 @@ text-align: left;
     border-color: #888 ;
     border-style: solid;
     border-width: 1px;
-    border-bottom: 0px;
+    border-bottom-color: #888;
     background: none;
 }
 
