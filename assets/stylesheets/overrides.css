@@ -126,6 +126,7 @@ text-align: left;
 
 .nav-tabs {
     border-bottom: 1px solid #33373a;
+    margin-top: 20px;
 }
 
 .nav-tabs > .active > a, .nav-tabs > .active > a:hover, .nav-tabs > .active > a:focus {
