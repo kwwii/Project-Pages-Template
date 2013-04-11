@@ -129,11 +129,7 @@ text-align: left;
 }
 
 .nav-tabs > .active > a, .nav-tabs > .active > a:hover, .nav-tabs > .active > a:focus {
-    border-color: #888 ;
-    border-image: none;
-    border-style: solid;
-    border-width: 1px;
-    border-bottom: none;
+    border: 1px 1px 0 1px solid #888;
     background: none;
 }
 
