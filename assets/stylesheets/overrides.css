@@ -125,15 +125,15 @@ text-align: left;
 }
 
 .nav-tabs {
-    border-bottom: 1px solid #888;
+    border-bottom: 2px solid #33373a;
 }
 
 .nav-tabs > .active > a, .nav-tabs > .active > a:hover, .nav-tabs > .active > a:focus {
-    border-color: #888 ;
+    border-color: #33373a;
     border-style: solid;
-    border-width: 1px;
-    border-bottom-color: #888;
-    background: none;
+    border-width: 2px;
+    color: #bbb;
+    background: #444749;
 }
 
 .footer {
