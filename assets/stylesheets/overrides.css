@@ -161,6 +161,13 @@ text-align: left;
   padding: 12px 20px;
 }
 
+.links-list a {
+  color: #7AC142;
+}
+.links-list a:hover {
+  color: #fff;
+}
+
 .module {
   margin-top: 30px;
 }
