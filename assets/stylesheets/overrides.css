@@ -154,7 +154,7 @@ text-align: left;
     color: #fff;
     cursor: default;
 }
-.nav-tabs a {
+.nav-tabs > li > a {
   font-size: 16px;
   padding: 12px 20px;
 }
