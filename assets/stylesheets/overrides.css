@@ -143,17 +143,18 @@ text-align: left;
 }
 
 .nav-tabs > .active > a, .nav-tabs > .active > a:hover, .nav-tabs > .active > a:focus {
-    -moz-border-bottom-colors: none;
-    -moz-border-left-colors: none;
-    -moz-border-right-colors: none;
-    -moz-border-top-colors: none;
-    background-color: #444749;
-    border-color: #444749;
-    border-image: none;
-    border-style: solid;
-    border-width: 1px;
-    color: #fff;
-    cursor: default;
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  background-color: #444749;
+  border-color: #444749;
+  border-image: none;
+  border-style: solid;
+  border-width: 1px;
+  color: #fff;
+  cursor: default;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4), 0 0 30px rgba(0, 0, 0, 0.055);
 }
 .nav-tabs > li > a {
   font-size: 16px;
