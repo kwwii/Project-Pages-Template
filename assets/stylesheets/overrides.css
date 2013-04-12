@@ -124,6 +124,10 @@ text-align: left;
 .help_content {
   padding:30px 40px;
 }
+.help_content p {
+  padding-left: 20px
+}
+
 .tab-content {
   background-color: #444749;
   color: #eee;
