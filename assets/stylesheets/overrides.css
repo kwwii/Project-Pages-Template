@@ -124,6 +124,8 @@ text-align: left;
 .tab-content {
   background-color: #444749;
   color: #eee;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
 }
 
 #help .nav {
