@@ -129,8 +129,8 @@ text-align: left;
   color: #eee;
 }
 
-#help > .tabbable > ul .nav {
-  margin-bottom: 0;
+#help .nav {
+  margin-bottom: 0px;
 } 
 
 .module {
